@@ -13,17 +13,16 @@
     <groupId>com.itmo.microservices</groupId>
     <artifactId>demo-service</artifactId>
     <version>0.1.1-SNAPSHOT</version>
-    <name>demo-service</name>
+    <name>M34081-dageron-service</name>
     <description>Demo project for microservices course 21-22</description>
 
     <properties>
-        <github>microservices-itmo-21-22/demo-service</github>
+        <github>dageron20/M34081-dageron-service</github>
         <java.version>11</java.version>
         <kotlin.version>1.6.10</kotlin.version>
         <guava.version>30.1.1-jre</guava.version>
         <jjwt.version>0.9.1</jjwt.version>
-        <common-lib.version>0.9.0-SNAPSHOT</common-lib.version>
-             
+        <common-lib.version>0.8.0-SNAPSHOT</common-lib.version>
         <buildnumber-maven-plugin.version>1.4</buildnumber-maven-plugin.version>
         <jib-maven-plugin.version>2.8.0</jib-maven-plugin.version>
     </properties>
