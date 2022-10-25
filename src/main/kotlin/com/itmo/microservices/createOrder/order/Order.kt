@@ -10,7 +10,7 @@ class Order {
     @Id
     @OneToOne(optional = false)
     @JoinColumn(name = "cutomer_name", nullable = false)
-    var cutomer: Customer? = null
+    var customer: Customer? = null
 
 
     var backet: Backet?
@@ -22,8 +22,8 @@ class Order {
 
     constructor()
 
-    constructor(cutomer: Customer?, backet: Backet?, deliveryTime: Date?) {
-        this.cutomer = cutomer
+    constructor(customer: Customer?, backet: Backet?, deliveryTime: Date?) {
+        this.customer = customer
         this.backet = backet
         this.deliveryTime = deliveryTime
     }
