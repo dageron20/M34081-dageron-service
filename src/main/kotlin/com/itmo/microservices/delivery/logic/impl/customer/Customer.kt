@@ -1,4 +1,4 @@
-package com.itmo.microservices.delivery.customer.impl.entity
+package com.itmo.microservices.delivery.logic.impl.customer
 
 import javax.persistence.Entity
 import javax.persistence.Id

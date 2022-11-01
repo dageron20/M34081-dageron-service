@@ -19,7 +19,6 @@ class Order {
 
     var deliveryTime: Date? = null
 
-
     constructor()
 
     constructor(customer: Customer?, backet: Backet?, deliveryTime: Date?) {
