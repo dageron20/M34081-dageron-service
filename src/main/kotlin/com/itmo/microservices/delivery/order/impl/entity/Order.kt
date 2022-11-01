@@ -1,6 +1,5 @@
 package com.itmo.microservices.delivery.order.impl.entity;
 
-import com.itmo.microservices.createOrder.backet.Backet
 import com.itmo.microservices.createOrder.customer.impl.entity.Customer
 import java.util.*
 import javax.persistence.Entity
