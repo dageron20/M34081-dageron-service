@@ -18,7 +18,7 @@ class Order {
         set(value) = TODO()
 
     var deliveryTime: Date? = null
-    
+
     constructor()
 
     constructor(customer: Customer?, backet: Backet?, deliveryTime: Date?) {
